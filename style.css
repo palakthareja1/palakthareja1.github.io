@@ -1,0 +1,156 @@
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.nav-list{
+    background-color: rgba(138, 253, 104, 0.952);
+    display: flex;
+}
+.nav-list li{
+    list-style: none;
+    padding: 28px 30px;
+
+}
+.navbar{
+    position: sticky;
+    cursor: pointer;
+    top: 0%;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: rgb(248, 60, 107);
+    font-family: fantasy;
+    padding: 8px 12px;
+    width: 0%;
+    
+}
+.nav-list li a:hover{
+    color: rgb(235, 154, 170);
+    margin: auto;
+    width: 100%;
+}
+.background{
+    background-color: rgba(105, 240, 52, 0.329);
+}
+
+.firstsection{
+    height: 80vh;
+}
+
+.firsthalf{
+    width:80%;
+    justify-content: center;
+    display: flex;
+
+    flex-direction: column;
+    margin-left: 60px;
+
+}
+
+.secondhalf img{
+    width: 90%;
+    border-radius: 50px;
+    padding: 10px;
+    margin-left: 50px;
+
+}
+
+.box-main{
+    display: flex;
+    margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 80%;
+    max-width: 80%;
+}
+.text-big{
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(168, 2, 36);
+}
+
+.text-small{
+    font-size: 25px;
+    color: crimson;
+}
+.btn{
+    padding: 10px;
+    margin: 9px 9px;
+    color: black;
+    border-radius: 8px;
+    font-size: 19px; 
+    cursor: pointer;
+}
+.hobbies{
+    height: 80vh;
+    text-align: center;
+    font-family: fantasy;
+    font-weight: bolder;
+    padding-top: 30px;
+    width: 100%;
+    background-image: linear-gradient(rgba(82, 230, 222, 0.479),rgba(49, 230, 205, 0.288));
+    background-position: center;
+    background-size: cover;
+}
+
+.row{
+    display: flex;
+}
+.pics{
+    margin-bottom: 40%;
+    text-align: center;
+    flex-basis: 30%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(4, 100, 104);
+    font-weight: bolder;
+    border-radius: 30px;
+    background-color: rgb(226, 142, 142);
+
+}
+
+.pics img{
+    width: 50%;
+    border-radius: 200px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+.skipro{
+    background-color: rgb(192, 192, 192);
+    width: 80%;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+
+.skill {
+    background-color: rgb(250, 170, 170);
+    color: white;
+    padding: 1%;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+}
+.textcenter{
+    font-family: fantasy;
+    text-align: center;
+    color: darkred;
+    font-size: 50px;
+}
+.textcenter2{
+    font-family: fantasy;
+    margin-left: 50px;
+    color:rgb(212, 124, 124);
+    font-size: 30px;
+}
+
+.html{
+    width: 70%;
+}
+.css{
+    width: 60%;
+}
+.java{
+    width: 30%;
+}
